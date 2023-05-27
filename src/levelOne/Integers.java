@@ -4,12 +4,12 @@ public class Integers {
 
     private int a, b;
 
-    public int setPlusA(){
+    public int getPlusA(){
         a = 0;
         return a;
     };
 
-    public int setPlusB(){
+    public int getPlusB(){
         b = 1;
         return b;
     };
