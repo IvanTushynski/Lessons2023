@@ -2,15 +2,15 @@ package levelOne;
 
 public class Integers {
 
-    int a, b;
+    private int a, b;
 
-    public int getPlusA(int a){
-        a = a + 2;
+    public int setPlusA(){
+        a = 1;
         return a;
     };
 
-    public int getPlusB(int b){
-        b = b + 2;
+    public int setPlusB(){
+        b = 2;
         return b;
     };
 }

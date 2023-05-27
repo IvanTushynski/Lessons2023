@@ -6,16 +6,16 @@ public class varAndCalc {
         Integers intOne = new Integers();
         Strings strOne = new Strings();
 
-        intOne.a = 10;
-        intOne.b = 30;
-
-        System.out.println(intOne.a + intOne.b);
-
-
-        intOne.a = 2;
-        strOne.g = "+4=6";
-        System.out.println(intOne.a + strOne.g);
-
+        intOne.setPlusA();
+        intOne.setPlusB();
+        int sum = intOne.setPlusA() + intOne.setPlusB();
+        if (sum > 0){
+            System.out.print("------------\nSUM:");
+            System.out.println(" " + sum);
+        } else{
+            System.out.print("------------\nSUM:");
+            System.out.print(" " + "Wrong Number!!!");
+        };
     }
 }
 
