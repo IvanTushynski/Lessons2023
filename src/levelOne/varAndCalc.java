@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class varAndCalc {
     public static void main(String[] args) throws InterruptedException {
-        Scanner scan = new Scanner(System.in);
 
-        Integers intOne = new Integers();
+        IntegersAndFloats intOne = new IntegersAndFloats();
         Strings strOne = new Strings();
 
         intOne.getPlusA();
