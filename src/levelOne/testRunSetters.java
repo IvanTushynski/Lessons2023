@@ -11,7 +11,6 @@ public class testRunSetters {
         IntegersAndFloats cAndD = new IntegersAndFloats();
 
         try {
-
             System.out.print("Первое Число: ");
             cAndD.setC(scanner.nextInt());
 
