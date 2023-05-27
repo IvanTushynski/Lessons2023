@@ -1,24 +1,21 @@
 package levelOne;
 
 public class varAndCalc {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         Integers intOne = new Integers();
         Strings strOne = new Strings();
-        Calculation clacOne = new Calculation();
-    }
 
-    public class Integers{
+        intOne.a = 10;
+        intOne.b = 30;
 
-        int a,b,c,d;
-    }
-    public class Strings{
+        System.out.println(intOne.a + intOne.b);
 
-        String g,h,j;
 
-    }
-
-    public class Calculation{
+        intOne.a = 2;
+        strOne.g = "+4=6";
+        System.out.println(intOne.a + strOne.g);
 
     }
 }
+
